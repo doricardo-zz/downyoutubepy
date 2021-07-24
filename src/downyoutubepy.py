@@ -13,8 +13,8 @@ class DownYoutubePy:
 	inicio = None
 	fim = None
 
-	def __init__(self):
-		return True
+	#def __init__(self):
+	#	return True
 
 	def download(self):
 	    with youtube_dl.YoutubeDL(self.ydl_opts) as ydl:
